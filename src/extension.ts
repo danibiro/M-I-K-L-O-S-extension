@@ -14,8 +14,13 @@ export function activate(context: vscode.ExtensionContext) {
 			);
 
 			let imagePath = panel.webview.asWebviewUri(vscode.Uri.joinPath(context.extensionUri, 'img', 'miklos.jpg'));
+			let iconPath = vscode.Uri.joinPath(context.extensionUri, 'img', 'miklos.jpg');
 
 			panel.webview.html = getWebViewContent(imagePath);
+			panel.iconPath = {
+				light: iconPath,
+				dark: iconPath
+			};
 		})
 	);
 }
