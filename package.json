@@ -16,6 +16,7 @@
     "type": "git",
     "url": "https://github.com/danibiro/M-I-K-L-O-S-extension"
   },
+  "homepage": "https://github.com/danibiro/M-I-K-L-O-S-extension/README.md",
   "icon": "img/miklos.ico",
   "publisher": "BirDniel",
   "activationEvents": [],
