@@ -2,7 +2,7 @@
   "name": "miklos-extension",
   "displayName": "M I K L Ó S",
   "description": "M I K L Ó S extension!!!!!!!",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "engines": {
     "vscode": "^1.89.0"
   },
