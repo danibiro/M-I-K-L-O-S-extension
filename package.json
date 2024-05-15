@@ -2,7 +2,7 @@
   "name": "miklos-extension",
   "displayName": "M I K L Ó S",
   "description": "M I K L Ó S extension!!!!!!!",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.89.0"
   },
@@ -16,6 +16,8 @@
     "type": "git",
     "url": "https://github.com/danibiro/M-I-K-L-O-S-extension"
   },
+  "icon": "img/miklos.ico",
+  "publisher": "BirDniel",
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
